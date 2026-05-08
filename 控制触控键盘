@@ -37,4 +37,4 @@ systemctl --user enable auto-touch-keyboard.service
 systemctl --user start auto-touch-keyboard.service
 
 检测
-systemctl --user status auto-touch-key
+systemctl --user status auto-touch-keyboard.service
