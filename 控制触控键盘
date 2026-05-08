@@ -7,6 +7,9 @@
 新建文件
 nano ~/auto-touch-keyboard.sh
 
+文件内容：
+auto-touch-keyboard.sh的内容
+
 给执行权限
 chmod +x ~/auto-touch-keyboard.sh
 
