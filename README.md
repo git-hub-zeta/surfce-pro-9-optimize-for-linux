@@ -13,6 +13,7 @@ chmod +x ~/auto-touch-keyboard.sh
 
 创建自动服务：
 mkdir -p ~/.config/systemd/user
+
 nano ~/.config/systemd/user/auto-touch-keyboard.service
 
 创建服务：
@@ -29,8 +30,11 @@ WantedBy=default.target
 
 启动：
 systemctl --user daemon-reexec
+
 systemctl --user daemon-reload
+
 systemctl --user enable auto-touch-keyboard.service
+
 systemctl --user start auto-touch-keyboard.service
 
 检测
